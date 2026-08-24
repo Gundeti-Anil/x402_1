@@ -120,10 +120,13 @@
   * {
     @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
-    }
   html {
     @apply font-sans;
+    color-scheme: light;
+    }
+  body {
+    @apply bg-background text-foreground;
+    background-color: #ffffff;
+    color: #000000;
     }
 }
